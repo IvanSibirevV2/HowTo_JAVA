@@ -79,7 +79,7 @@ public class E_001_DataTypeS {
 		for(int i = 0; i < 128; i++)System.out.print((char)i);System.out.println("");
 		for(int i = 1040; i < 1106; i++)System.out.print((char)i);System.out.println("");	
 		for(int i = 9450; i < 9600; i++)System.out.print((char)i);System.out.println("");		
-
+		
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();
 	}
