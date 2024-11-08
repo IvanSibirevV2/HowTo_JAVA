@@ -37,8 +37,9 @@ public class E_002_String {
 				+"нужно экранировать"
 			;System.out.println(str);
 		}
-		System.out.println("///////////////////////////////////////////////////////");
 		{
+			System.out.println("///////////////////////////////////////////////////////");
+			System.out.print("\"Java\".length()=");System.out.println("Java".length());
 			String str1 = "str1"; System.out.println(str1);
 			String str2 = new String(); // пустая строка
 			System.out.println(str2); System.out.println("-Пустая строка");
@@ -47,6 +48,31 @@ public class E_002_String {
 			String str4 = new String(new char[]{'w', 'e', 'l','s', 't', 'r', '4', 'c', 'o', 'm', 'e'}, 3, 4);//3 -начальный индекс, 4 -кол-во символов
 			System.out.println(str4); // str4
 		}		
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			for (
+				char _char :
+				new String(new char[] {'h', 'e', 'l', 'l', 'o'})
+					.toCharArray()
+			)
+				System.out.print(_char);
+			System.out.println("");
+		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			String s = "";   // пустая строка
+			if(s.length() == 0) System.out.println("String is empty (s.length() == 0)");
+			if(s.isEmpty()) System.out.println("String is empty (s.isEmpty())");		
+			s = null;   // строка не указывает на объект
+			if(s == null) System.out.println("String is null (s == null)");			
+		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			System.out.println("\"Geeks\".concat(\"for Geeks\")="+"Geeks".concat(" for Geeks"));
+		}
+		
+		
+        System.out.println();
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();
 	}
