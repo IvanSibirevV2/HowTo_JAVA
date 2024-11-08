@@ -16,9 +16,16 @@ public class HelloWorld {
 		// TODO Auto-generated method stub
 		//Программыный код писать сюда.
 		{
-			MyClass _MyClassA=new MyClass();
-			MyClass _MyClassB=new MyClass();
-			System.out.println( _MyClassA.compareTo(_MyClassB));
+			String str = "Hello World";
+			System.out.println("String str = "+str+";");
+			char[] dest = new char[5];
+			System.out.println("char[] dest = new char[5];");
+			str.getChars(2, 7, dest, 0);
+			System.out.println("str.getChars(2, 7, dest, 0);");
+			
+			System.out.println(dest.toString());
+			
+
 		}
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();

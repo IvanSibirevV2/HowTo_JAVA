@@ -72,6 +72,8 @@ public class E_002_String {
 			System.out.println("\"Geeks\".concat(\"for Geeks\")="+"Geeks".concat(" for Geeks"));
 			System.out.print("\"Java String\".charAt(8)=");
 			System.out.println("Java String".charAt(8));
+			System.out.print("\"STR\".equals(\"STR\")="); System.out.println("STR".equals("STR"));  
+			System.out.print("\"STR\".equals(\"STR_\")=");System.out.println("STR".equals("STR_")); 
 		}
 		{
 			System.out.println("///////////////////////////////////////////////////////");
@@ -134,10 +136,20 @@ public class E_002_String {
 		}
 
 		{
-
-
+			String str = "Hello World";
+			System.out.println("String str = "+str+";");
+			char[] dest = new char[5];
+			System.out.println("char[] dest = new char[5];");
+			str.getChars(2, 7, dest, 0);
+			System.out.println("str.getChars(2, 7, dest, 0);");
+			for (char _char : dest) System.out.print(_char);
+			System.out.println("");
 		}
-		
+		{
+			
+
+			
+		}
 		
         System.out.println();
 		//Ожидание ввода
