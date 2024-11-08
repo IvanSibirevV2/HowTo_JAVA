@@ -80,6 +80,19 @@ public class E_001_DataTypeS {
 		for(int i = 1040; i < 1106; i++)System.out.print((char)i);System.out.println("");	
 		for(int i = 9450; i < 9600; i++)System.out.print((char)i);System.out.println("");		
 		
+		System.out.println("///////////////////////////////////////////////////////");
+		String str1 = "Строка однострочная";
+		System.out.println(str1);
+		String str2 = "Строка \n"
+			+"многострочная";
+		System.out.println(str2);
+		String str3 =
+"""
+Строка
+не дословная
+многострочная
+""";
+		System.out.println(str3);
 		
 		
 		//Ожидание ввода
