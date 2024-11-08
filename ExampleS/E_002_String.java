@@ -73,7 +73,10 @@ public class E_002_String {
 			System.out.print("\"Java String\".charAt(8)=");
 			System.out.println("Java String".charAt(8));
 			System.out.print("\"STR\".equals(\"STR\")="); System.out.println("STR".equals("STR"));  
-			System.out.print("\"STR\".equals(\"STR_\")=");System.out.println("STR".equals("STR_")); 
+			System.out.print("\"STR\".equals(\"STr\")=");System.out.println("STR".equals("STR_")); 
+			System.out.print("\"STR\".equalsIgnoreCase(\"STR\")="); System.out.println("STR".equalsIgnoreCase("STR"));  
+			System.out.print("\"STR\".equalsIgnoreCase(\"STr\")=");System.out.println("STR".equalsIgnoreCase("STR_")); 
+			System.out.print("\"STR\".equalsIgnoreCase(\"STr\")=");System.out.println("STR".equalsIgnoreCase("STr"));
 		}
 		{
 			System.out.println("///////////////////////////////////////////////////////");
