@@ -70,6 +70,26 @@ public class E_002_String {
 			System.out.println("///////////////////////////////////////////////////////");
 			System.out.println("\"Geeks\".concat(\"for Geeks\")="+"Geeks".concat(" for Geeks"));
 		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			System.out.println("<<<String.valueOf(value)>>>");
+			double d = 102939939.939;
+			System.out.print("double d = 102939939.939; ");
+			System.out.println("String.valueOf(d)="+String.valueOf(d)+";");
+			
+			boolean b = true;
+			System.out.print("boolean b = true; ");
+			System.out.println("String.valueOf(b)="+String.valueOf(b)+";");
+			
+			long l = 1232874;
+			System.out.print("long l = 1232874; ");
+			System.out.println("String.valueOf(l)="+String.valueOf(l)+";");
+			
+			char[] arr = { 'а', 'б', 'в', 'г', 'д', 'е', 'ё' };
+			System.out.print("char[] arr = { 'а', 'б', 'в', 'г', 'д', 'е', 'ё' }; ");
+			System.out.println("String.valueOf(arr)="+String.valueOf(arr)+";");
+		
+		}
 		
 		
         System.out.println();
