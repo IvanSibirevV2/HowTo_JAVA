@@ -70,6 +70,8 @@ public class E_002_String {
 		{
 			System.out.println("///////////////////////////////////////////////////////");
 			System.out.println("\"Geeks\".concat(\"for Geeks\")="+"Geeks".concat(" for Geeks"));
+			System.out.print("\"Java String\".charAt(8)=");
+			System.out.println("Java String".charAt(8));
 		}
 		{
 			System.out.println("///////////////////////////////////////////////////////");
@@ -130,8 +132,10 @@ public class E_002_String {
 			// метода сompareTo для классов нет, реализуется самостоятельно
 			//https://www.geeksforgeeks.org/java-string-compareto-method-with-examples/
 		}
+
 		{
-			
+
+
 		}
 		
 		
