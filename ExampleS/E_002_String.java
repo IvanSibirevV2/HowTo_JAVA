@@ -20,25 +20,33 @@ public class E_002_String {
 ///////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
 		//Программыный код писать сюда.
-		System.out.println("HelloWorld");
 		
+		System.out.println("HelloWorld");
 		System.out.println("///////////////////////////////////////////////////////");
-		System.out.println("HelloWorld");
-		String str1 = "Строка однострочная";
-		System.out.println(str1);
-		String str2 =
-"""
-Строка \n не дословная 
-многострочная
-"""
-		;
-		System.out.println(str2);
-		String str3 ="Спец символы \n"
-			+"нужно экранировать"
-		;
-		System.out.println(str3);
-		
-		
+		{
+			System.out.println("HelloWorld");
+			String str ="";
+			str = "Строка однострочная"; System.out.println(str);
+			str =
+	"""
+	Строка \n не дословная 
+	многострочная
+	"""
+			;System.out.println(str);
+			str ="Спец символы \n"
+				+"нужно экранировать"
+			;System.out.println(str);
+		}
+		System.out.println("///////////////////////////////////////////////////////");
+		{
+			String str1 = "str1"; System.out.println(str1);
+			String str2 = new String(); // пустая строка
+			System.out.println(str2); System.out.println("-Пустая строка");
+			String str3 = new String(new char[] {'s', 't', 'r', '3'});
+			System.out.println(str3);
+			String str4 = new String(new char[]{'w', 'e', 'l','s', 't', 'r', '4', 'c', 'o', 'm', 'e'}, 3, 4);//3 -начальный индекс, 4 -кол-во символов
+			System.out.println(str4); // str4
+		}		
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();
 	}
