@@ -79,6 +79,13 @@ public class E_004_Массивы {
 				System.out.println();
 			}
 		}
+		{
+			// https://metanit.com/java/tutorial/2.7.php
+			// https://metanit.com/java/tutorial/2.16.php
+			// https://metanit.com/java/tutorial/2.17.php
+			// лямбда выражения
+			// https://metanit.com/java/tutorial/2.10.php
+		}
         System.out.println();
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();
