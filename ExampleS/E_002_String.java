@@ -72,6 +72,13 @@ public class E_002_String {
 		}
 		{
 			System.out.println("///////////////////////////////////////////////////////");
+			System.out.println("<<<String.join(spliterValue, stringValue1, stringValue2, ...)>>>");
+			System.out.println(String.join(" ", "Wake up", "Eat", "Play", "Sleep", "Wake up"));
+			System.out.println(String.join("_", "Wake up", "Eat", "Play", "Sleep", "Wake up"));
+			System.out.println(String.join("-> ", "Wake up", "Eat", "Play", "Sleep", "Wake up"));
+		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
 			System.out.println("<<<String.valueOf(value)>>>");
 			double d = 102939939.939;
 			System.out.print("double d = 102939939.939; ");
