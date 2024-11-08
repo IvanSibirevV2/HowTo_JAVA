@@ -1,14 +1,11 @@
 package HelloWorld;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.nio.file.Path;
 import java.nio.file.Paths; import java.io.File; import java.io.BufferedReader; import java.io.IOException; import java.io.InputStreamReader;
 
 
-public class MyClass
-{
-	public int p_int=0;
-} 
 
 public class HelloWorld {
 
@@ -17,17 +14,10 @@ public class HelloWorld {
 		//Программыный код писать сюда.
 
 		{
-			int[] nums = new int[] { 1, 2, 3, 5 };
-			int[] nums2 = { 1, 2, 3, 5 };	
-			for (int _nums : nums) System.out.print(_nums); System.out.println("");
-			System.out.print(nums2);// Мне кажется мы колучили указатель... =)
-		}
-		{
-			int[] nums = {1, 2, 3, 4, 5};
-			System.out.println("int[] nums = {1, 2, 3, 4, 5};");
-			int length = nums.length; 
-			System.out.print("int length = ");
-			System.out.println(length);
+			int[] nums1 = new int[] { 0, 1, 2, 3, 4, 5 };
+			int[][] nums2 = { { 0, 1, 2 }, { 3, 4, 5 } };
+			int[][] myArray = {{18,28,18},{28,45,90},{45,3,14}};
+			System.out.println(Arrays.deepToString(myArray));			
 		}
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();

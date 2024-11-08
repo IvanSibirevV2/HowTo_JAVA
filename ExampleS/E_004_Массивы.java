@@ -1,4 +1,4 @@
-import java.util.Scanner; import java.nio.file.Path; import java.nio.file.Paths; import java.io.File; import java.io.BufferedReader; import java.io.IOException; import java.io.InputStreamReader;
+import java.util.Scanner; import java.nio.file.Path; import java.nio.file.Paths; import java.io.File; import java.io.BufferedReader; import java.io.IOException; import java.io.InputStreamReader;import java.util.Arrays;
 ///////////////////////////////////////////////////////////////////////////////////////
 
 public class E_004_Массивы {
@@ -47,7 +47,37 @@ public class E_004_Массивы {
 		}
 		{
 			int[] nums1 = new int[] { 0, 1, 2, 3, 4, 5 };
-			int[][] nums2 = { { 0, 1, 2 }, { 3, 4, 5 } };	
+			int[][] nums2 = { { 0, 1, 2 }, { 3, 4, 5 } };
+			int[][] myArray = {{18,28,18},{28,45,90},{45,3,14}};
+			//import java.util.Arrays;
+			System.out.println(Arrays.deepToString(myArray));			
+		}
+		{
+			int[] array = new int[] { 1, 2, 3, 4, 5 };
+			for (int i : array){
+				System.out.println(i);
+			}
+		}
+		{
+			int[] array = new int[] { 1, 2, 3, 4, 5 };
+			for (int i = 0; i < array.length; i++){
+				System.out.println(array[i]);
+			}
+		}
+		{
+			int[][] nums = new int[][] 
+			{ 
+				{1, 2, 3},
+				{4, 5, 6},
+				{7, 8, 9}
+			};
+			for (int i = 0; i < nums.length; i++){
+				for(int j=0; j < nums[i].length; j++){
+						 
+					System.out.printf("%d ", nums[i][j]);
+				}
+				System.out.println();
+			}
 		}
         System.out.println();
 		//Ожидание ввода
