@@ -1,5 +1,6 @@
 import java.util.Scanner; import java.nio.file.Path; import java.nio.file.Paths; import java.io.File; import java.io.BufferedReader; import java.io.IOException; import java.io.InputStreamReader;
 ///////////////////////////////////////////////////////////////////////////////////////
+
 public class E_002_String {
 	public static void main(String[] args) throws IOException {
 		Class<?> myClass = E_002_String.class;
@@ -96,6 +97,41 @@ public class E_002_String {
 			System.out.print("char[] arr = { 'а', 'б', 'в', 'г', 'д', 'е', 'ё' }; ");
 			System.out.println("String.valueOf(arr)="+String.valueOf(arr)+";");
 		
+		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			System.out.println("<<<str1.сompareTo(str2)>>>");
+			
+			String str1 = "ABCD"; System.out.println("String str1 = \"ABCD\";");
+			String str2 = str1; System.out.println("String str2 = str1;");
+			System.out.print("str1.compareTo(str2)=");
+			System.out.println( str1.compareTo(str2));
+			
+			str1 = "ABCD"; System.out.println("str1 = \"ABCD\";");
+			str2 = "ABCD"; System.out.println("str2 = \"ABCD\";");
+			System.out.print("str1.compareTo(str2)=");
+			System.out.println( str1.compareTo(str2));
+						
+			str1 = "ABCD"; System.out.println("str1 = \"ABCD\";");
+			str2 = "ABCDF"; System.out.println("str2 = \"ABCDF\";");
+			System.out.print("str1.compareTo(str2)=");
+			System.out.println( str1.compareTo(str2));
+			
+			// если  string1 > string2 , возвращается  положительное  число
+			// если  string1 < string2 , возвращается  отрицательное  число
+			// если  string1 == string2 , возвращается  0
+		}
+		{
+			System.out.println("///////////////////////////////////////////////////////");
+			//System.out.println("<<<int1.сompareTo(int2)>>>");
+			//int int1 = 8;int int2 = 8;
+			//System.out.println( int1.compareTo(int2));
+			// У чисел нет компанатора, ну наверно он есть но это будет не тот компанатор который мы рассматриваем
+			// метода сompareTo для классов нет, реализуется самостоятельно
+			//https://www.geeksforgeeks.org/java-string-compareto-method-with-examples/
+		}
+		{
+			
 		}
 		
 		
