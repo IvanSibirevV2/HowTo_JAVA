@@ -149,8 +149,11 @@ public class E_002_String {
 			System.out.println("");
 		}
 		{
-			
-
+			//https://metanit.com/java/tutorial/7.1.php
+			//https://metanit.com/java/tutorial/2.3.php
+			//https://metanit.com/java/tutorial/2.13.php
+			//https://metanit.com/java/tutorial/2.14.php
+			//https://metanit.com/java/tutorial/2.15.php
 			
 		}
 		
