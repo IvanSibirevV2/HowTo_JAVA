@@ -15,17 +15,19 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Программыный код писать сюда.
-		{
-			String str = "Hello World";
-			System.out.println("String str = "+str+";");
-			char[] dest = new char[5];
-			System.out.println("char[] dest = new char[5];");
-			str.getChars(2, 7, dest, 0);
-			System.out.println("str.getChars(2, 7, dest, 0);");
-			
-			System.out.println(dest.toString());
-			
 
+		{
+			int[] nums = new int[] { 1, 2, 3, 5 };
+			int[] nums2 = { 1, 2, 3, 5 };	
+			for (int _nums : nums) System.out.print(_nums); System.out.println("");
+			System.out.print(nums2);// Мне кажется мы колучили указатель... =)
+		}
+		{
+			int[] nums = {1, 2, 3, 4, 5};
+			System.out.println("int[] nums = {1, 2, 3, 4, 5};");
+			int length = nums.length; 
+			System.out.print("int length = ");
+			System.out.println(length);
 		}
 		//Ожидание ввода
 		Scanner reader = new Scanner(System.in); int n = reader.nextInt(); reader.close();
